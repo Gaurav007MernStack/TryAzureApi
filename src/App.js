@@ -10,12 +10,6 @@ import Softech from './Softech';
 function App() {
   return (
     <div className="App">
-      {/*<Api />
-      <Holidays />
-      <List />*/}
-      {/*<SimpleForm1 />*/}
-      {/*<LevelForm2 />*/}
-      {/*<LevelForm3 />*/}
       <Softech />
     </div>
   );
