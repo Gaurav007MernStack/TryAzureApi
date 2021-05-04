@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+//import Api from './Api';
+//import Holidays from './Holidays';
+//import List from './CountriesList';
+//import {SimpleForm1} from './Form1';
+//import {LevelForm2} from './LevelForm2'
+//import { LevelForm3 } from "./Form3Level";
+import Softech from './Softech';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<Api />
+      <Holidays />
+      <List />*/}
+      {/*<SimpleForm1 />*/}
+      {/*<LevelForm2 />*/}
+      {/*<LevelForm3 />*/}
+      <Softech />
     </div>
   );
 }
