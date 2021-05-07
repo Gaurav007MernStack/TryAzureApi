@@ -1,6 +1,16 @@
 /*body {
     background: rgb(172, 155, 155);
 }*/
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.setIcon{
+    margin-right: 2%;
+}
+#fix{
+    margin-left: 35%;
+}
 .home{
     display: grid;
     place-items: center;
